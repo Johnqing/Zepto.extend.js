@@ -1648,5 +1648,6 @@ window.$ === undefined && (window.$ = Zepto)
 			node.on("touchend", _end);
 			node.on("mousedown", _start);
 			node.on("mouseup", _end);
-		});	}
+		});
+	}
 })(Zepto);
